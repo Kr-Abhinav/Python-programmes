@@ -1,0 +1,4 @@
+x=1
+while x<=69:
+    print("BABY",x)
+    x+=1
