@@ -2,5 +2,9 @@ x=["apple","box","cat","dog","doggie"]
 print(x[2])#print index 2 element
 print(x)#print list element
 x.remove(x[3])#removes element at index 3
+x.pop(3)#removes element at index 3
+x.remove('dog')#remove element of this type
 print(x)
 print(x[3])
+x.reverse()#reverse element of the list
+print(x)
