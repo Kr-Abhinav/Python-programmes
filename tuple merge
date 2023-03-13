@@ -1,0 +1,4 @@
+x=("apple","box","cat","dog","doggie")
+y=("dude","beech")
+z=x+y
+print(z)
