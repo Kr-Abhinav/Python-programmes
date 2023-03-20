@@ -1,5 +1,5 @@
 n=int(input())
-if(n%10==1 or n%10==2):
+if(n%10==1 or n%10==2 or n%10>=8):
     print("TRUE")
 else:
     print("FALSE")
