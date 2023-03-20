@@ -1,0 +1,14 @@
+d=int(input("WAS the day ur birthday(1 for yes)(0 for no):"))
+s=int(input("Speed:"))
+if((d==0) and (s<=60)):
+    print("0")
+elif((d==0) and (s>=61 and s<=80)):
+    print("1")
+elif((d==0) and (s>=81)):
+    print("2")
+elif((d==1) and (s<=65)):
+    print("0")
+elif((d==1) and (s>=66 and s<=85)):
+    print("1")
+elif((d==1) and (s>=86)):
+     print("2")
