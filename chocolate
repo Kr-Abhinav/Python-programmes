@@ -1,0 +1,4 @@
+k=int(input("Enter killos"))
+x=k%5
+y=int(k/5)
+print("big--->",y,"small--->",x)
