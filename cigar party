@@ -1,0 +1,8 @@
+d=int(input("Enter number of the day of week:"))
+c=int(input("cigar:"))
+if((d>=1 and d<6) and (c>=40 and c<=60)):
+    print("TRUE")
+elif((d==6 or d==7) and (c>=40)):
+    print("TRUE")
+else:
+    print("FALSE")
