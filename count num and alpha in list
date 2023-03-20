@@ -1,0 +1,10 @@
+A=[1,2,3,"a","b",5]
+a=0
+b=0
+s=str(A)
+for i in range(len(s)):
+    if s[i].isalpha():
+        a+=1
+    elif s[i].isalnum():
+        b+=1
+print("NUM=",b,"ALPHA=",a)
