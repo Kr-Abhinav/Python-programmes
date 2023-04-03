@@ -1,0 +1,4 @@
+vowel=[False,True]
+x=all(vowel)
+print(x)
+print(type(vowel))
