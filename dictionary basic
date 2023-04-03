@@ -12,4 +12,5 @@ del d["session"]
 for i in d:
     print(d[i])
 print(len(d))
-
+print(sorted(d))
+print(d[x[len(x/2)]])
