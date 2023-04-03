@@ -11,3 +11,5 @@ d["session"]="2022-23"
 del d["session"]
 for i in d:
     print(d[i])
+print(len(d))
+
