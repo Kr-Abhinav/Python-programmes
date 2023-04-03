@@ -1,0 +1,8 @@
+d={"Name":"Abby","Age":"19","subject":"python","roll no":"03"}
+print(d.get("Name"))
+print(d.keys())
+print(d.items())
+print(d.values())
+d.popitem()
+print(d)
+print(list(d))
