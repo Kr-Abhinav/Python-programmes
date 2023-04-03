@@ -6,3 +6,8 @@ print(d.values())
 d.popitem()
 print(d)
 print(list(d))
+d["roll no"]=21
+d["session"]="2022-23"
+del d["session"]
+for i in d:
+    print(d[i])
