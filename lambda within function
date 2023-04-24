@@ -1,0 +1,5 @@
+def multi(a,b,c):
+    m=lambda a,b,c:a*b*c
+    print(m(a,b,c))
+  
+multi(1,2,3)
