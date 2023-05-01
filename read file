@@ -1,0 +1,6 @@
+f=open('baby','w+')
+f.write("Hey Dear" "\n" "How's ur day""\n""It's been great""\n""What about you""\n""Absolutely magnificent")
+f.close()
+f=open('baby','r')
+print(f.read())
+print(f.readline())
